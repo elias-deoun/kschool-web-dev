@@ -1,0 +1,58 @@
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+/* shared styles */
+.pri-color{
+  color: rgb(254, 161, 1);
+}
+.sky{
+  color: rgba(1, 172, 253, 1);
+}
+.third-c{
+  color: rgba(5, 212, 223, 1);
+}
+.tar{
+  color: rgba(93, 88, 239, 1);
+}
+.btn-p{
+  background-color: rgb(254, 161, 1);
+  border-radius: 12px;
+  border: none;
+  width: 195px;
+  height: 50px;
+}
+/* navbar styles */
+.logo img{
+  width: 52px;
+  height: 62px;
+}
+.logo-title{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.bar ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.bar ul li>a {
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
