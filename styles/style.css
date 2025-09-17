@@ -78,7 +78,7 @@
   margin-left: 50px;
 
 }
-span{
+.banner-title{
   font-size: 3.5rem;
 }
 .banner-desc{
@@ -89,4 +89,51 @@ span{
   background-color: black;
   color: white;
   border-radius: 12px;
+  width: 195px;
+  height: 50px;
+}
+.img img{
+  width: 100%;
+}
+/* standard styles */
+.curriculum-title{
+  text-align: center;
+  font-size: 2.9rem;
+margin: 60px auto;
+}
+.curriculum{
+  background-image: url(bg.png);
+}
+.standard{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 50px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.kinder-1{
+  background: linear-gradient(rgba(222, 245, 255, 0),rgba(222, 245, 255, 1));
+  border-radius: 19px;
+}
+.kinder-2{
+  background: linear-gradient(rgba(255, 244, 220, 1),rgba(255, 244, 220, 1));
+  border-radius: 19px;
+}
+.kinder-3{
+background: linear-gradient(rgba(238, 225, 255, 1),rgba(242, 232, 255, 1));
+  border-radius: 19px;
+}
+
+.kinder-title{
+  font-size: 1.5rem;
+}
+.kinder-image{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.standard button{
+  border: none;
 }
