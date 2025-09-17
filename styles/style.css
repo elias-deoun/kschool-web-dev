@@ -55,4 +55,38 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 50px;
+  width: 1150px;
+}
+/* banner part styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1150px;
+  height: 570px;
+  gap: 50px;
+}
+.banner-main{
+  width: 640px;
+  height: 330px;
+  padding: 120px auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 50px;
+
+}
+span{
+  font-size: 3.5rem;
+}
+.banner-desc{
+  font-size: 1.25rem;
+  margin: 20px auto;
+}
+.banner-main button{
+  background-color: black;
+  color: white;
+  border-radius: 12px;
 }
