@@ -137,3 +137,27 @@ background: linear-gradient(rgba(238, 225, 255, 1),rgba(242, 232, 255, 1));
 .standard button{
   border: none;
 }
+.wrap{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  /* width: 3.75rem; */
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+
+}
+.angle{
+  display: flex;
+  gap: 5px;
+  color: rgb(254, 161, 1);
+  
+}
+.angle i {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: blueviolet;
+  text-align: center;
+}
