@@ -1,64 +1,76 @@
-
 .quicksand {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
+
 /* shared styles */
-.pri-color{
+.pri-color {
   color: rgb(254, 161, 1);
 }
-.sky{
+
+.sky {
   color: rgba(1, 172, 253, 1);
 }
-.third-c{
+
+.third-c {
   color: rgba(5, 212, 223, 1);
 }
-.tar{
+
+.tar {
   color: rgba(93, 88, 239, 1);
 }
-.btn-p{
+
+.btn-p {
   background-color: rgb(254, 161, 1);
   border-radius: 12px;
   border: none;
   width: 195px;
   height: 50px;
 }
+
 /* navbar styles */
-.logo img{
+.logo img {
   width: 52px;
   height: 62px;
 }
-.logo-title{
+
+.logo-title {
   font-size: 2rem;
   font-weight: 700;
 }
-.logo{
+
+.logo {
   display: flex;
   align-items: center;
 }
-.bar ul{
+
+.bar ul {
   display: flex;
   gap: 20px;
   list-style: none;
 }
+
 .bar ul li>a {
   text-decoration: none;
 }
-.navbar{
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 50px;
   width: 1150px;
 }
+
 /* banner part styles */
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,7 +78,8 @@
   height: 570px;
   gap: 50px;
 }
-.banner-main{
+
+.banner-main {
   width: 640px;
   height: 330px;
   padding: 120px auto;
@@ -78,66 +91,76 @@
   margin-left: 50px;
 
 }
-.banner-title{
+
+.banner-title {
   font-size: 3.5rem;
 }
-.banner-desc{
+
+.banner-desc {
   font-size: 1.25rem;
   margin: 20px auto;
 }
-.banner-main button{
+
+.banner-main button {
   background-color: black;
   color: white;
   border-radius: 12px;
   width: 195px;
   height: 50px;
 }
-.img img{
+
+.img img {
   width: 100%;
 }
+
 /* standard styles */
-.curriculum-title{
+.curriculum-title {
   text-align: center;
   font-size: 2.9rem;
-margin: 60px auto;
+  margin: 60px auto;
 }
-.curriculum{
-  background-image: url(bg.png);
-}
-.standard{
+
+.standard {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-left: 50px;
   gap: 20px;
   align-items: center;
   justify-content: center;
+  background-image: url(bg.png);
 }
-.kinder-1{
-  background: linear-gradient(rgba(222, 245, 255, 0),rgba(222, 245, 255, 1));
-  border-radius: 19px;
-}
-.kinder-2{
-  background: linear-gradient(rgba(255, 244, 220, 1),rgba(255, 244, 220, 1));
-  border-radius: 19px;
-}
-.kinder-3{
-background: linear-gradient(rgba(238, 225, 255, 1),rgba(242, 232, 255, 1));
+
+.kinder-1 {
+  background: linear-gradient(rgba(222, 245, 255, 0), rgba(222, 245, 255, 1));
   border-radius: 19px;
 }
 
-.kinder-title{
+.kinder-2 {
+  background: linear-gradient(rgba(255, 244, 220, 1), rgba(255, 244, 220, 1));
+  border-radius: 19px;
+}
+
+.kinder-3 {
+  background: linear-gradient(rgba(238, 225, 255, 1), rgba(242, 232, 255, 1));
+  border-radius: 19px;
+}
+
+.kinder-title {
   font-size: 1.5rem;
 }
-.kinder-image{
+
+.kinder-image {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.standard button{
+
+.standard button {
   border: none;
 }
-.wrap{
+
+.wrap {
   margin-top: 3rem;
   margin-bottom: 3rem;
   /* width: 3.75rem; */
@@ -148,12 +171,14 @@ background: linear-gradient(rgba(238, 225, 255, 1),rgba(242, 232, 255, 1));
   border-radius: 12px;
 
 }
-.angle{
+
+.angle {
   display: flex;
   gap: 5px;
   color: rgb(254, 161, 1);
-  
+
 }
+
 .angle i {
   border-radius: 50%;
   width: 60px;
@@ -161,3 +186,44 @@ background: linear-gradient(rgba(238, 225, 255, 1),rgba(242, 232, 255, 1));
   background-color: blueviolet;
   text-align: center;
 }
+/* stories styles */
+.stories{
+  background: linear-gradient(rgba(254, 163, 1, 0.3),rgba(196, 196, 196, 1));
+}
+
+.stories-title{
+  text-align: center;
+  margin: 60px auto;
+  font-size: 2.9rem;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr, 1fr,;
+  /* grid-template-rows: repeat(2, 1fr); */
+  max-width: 1440px;
+  /* height: 1010px; */
+  /* align-items: start; */
+  margin: auto;
+}
+.
+
+
+.big-card img{
+  width: 100%;
+  height: 250px;
+}
+.small-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.small-card{
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.small-card img{
+  width: 100%;
+}
+
